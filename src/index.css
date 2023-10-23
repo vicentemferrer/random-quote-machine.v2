@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+#quote-box>* {
+  transition: background-color 2s ease-in-out,
+    color 1.5s ease-in-out;
+}
+
+#quote-box {
+  width: 80%;
+  min-width: 500px;
+  min-height: 40%;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote {
+  margin: 15px auto;
+  width: 85%;
+}
+
+#quote-box>div.row {
+  margin: 20px auto 0px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#developed-by {
+  margin: 15px auto;
+  color: whitesmoke;
+}
